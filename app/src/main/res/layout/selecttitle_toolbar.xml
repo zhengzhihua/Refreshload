@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/select_toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="?attr/actionBarSize"
+    android:background="@color/titlebgcolor">
+    <ImageView
+        android:id="@+id/exit1_text"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:src="@drawable/delete_exit"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="15dp"
+        />
+    <TextView
+        android:id="@+id/titeword_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="请选择违规类型"
+        android:textSize="16dp"
+        android:textColor="@color/titlewordcolor">
+
+    </TextView>
+</RelativeLayout>
